@@ -1,0 +1,8 @@
+Auto Rename Tag
+Ayu (Icons)
+CodeSnap
+Indenticator
+Minimal Icons
+Subtle Match Brackets
+Thunder Clients
+vscode-styled-components

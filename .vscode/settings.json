@@ -1,0 +1,180 @@
+{ 
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13.5,
+    "editor.fontWeight": "400",
+    "editor.minimap.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.occurrencesHighlight": false,
+    "editor.matchBrackets": "never",
+    "explorer.openEditors.visible": 0,
+    "workbench.editor.showIcons": false,
+    "workbench.statusBar.visible": false,
+    "indenticator.color.dark": "rgba(255,255,255,.1)",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "ayu",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "diffEditor.wordWrap": "off",
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts, ${capture}.query.js, ${capture}.modify.js, ${capture}.styled.js, ${capture}.imports.js, ${capture}.services.js, ${capture}.validation.js, ${capture}.map.js, ${capture}.components.js, ${capture}.scss, ${capture}.module.scss",
+        "*.jsx": "${capture}.jsx.map, ${capture}.min.jsx, ${capture}.d.tsx, ${capture}.query.jsx, ${capture}.modify.jsx, ${capture}.styled.jsx, ${capture}.imports.jsx, ${capture}.services.jsx, ${capture}.validation.jsx, ${capture}.map.jsx, ${capture}.components.jsx, ${capture}.scss, ${capture}.module.scss",
+        "*.tsx": "${capture}.tsx.map, ${capture}.interface.tsx, ${capture}.entity.tsx, ${capture}.model.tsx, ${capture}.min.tsx, ${capture}.d.tsx, ${capture}.query.tsx, ${capture}.modify.tsx, ${capture}.styled.tsx, ${capture}.imports.tsx, ${capture}.services.tsx, ${capture}.validation.tsx, ${capture}.map.tsx, ${capture}.components.jsx, ${capture}.scss, ${capture}.module.scss"
+    },
+    "thunder-client.saveToWorkspace": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "editor.smoothScrolling": false,
+    "editor.fontLigatures": true,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.scrollbar.verticalScrollbarSize": 12,
+    "editor.comments.ignoreEmptyLines": false,
+    "editor.cursorStyle": "underline",
+    "editor.renderLineHighlight": "gutter",
+    "npm.autoDetect": "on",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "[bat]": {
+        "diffEditor.wordWrap": "inherit",
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 120,
+        "editor.fontLigatures": false
+    },
+    "[plaintext]": {
+        "diffEditor.wordWrap": "inherit",
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 120,
+        "editor.fontLigatures": false
+    },
+    "[json]": {
+        "editor.fontLigatures": false
+    },
+    "debug.console.wordWrap": false,
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": false,
+        "**/.git/subtree-cache/**": false,
+        "**/.hg/store/**": false,
+        "**/node_modules/*/**": false
+    },
+    "explorer.compactFolders": false,
+    "git.enableSmartCommit": true,
+    "editor.codeLens": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnType": true,
+    "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "none",
+    "editor.inlayHints.enabled": "off",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "functions": "#ceb735",
+            "keywords": "#9a7adf",
+            "types": "#24d4b1",
+            "strings": "#e78651",
+            "variables": "#5daed5",
+            "numbers": "#96e5a8",
+            "textMateRules": [
+                {
+                    "scope":"",
+                    "settings": {
+                        "foreground": "#ff0000",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"keyword.operator",
+                    "settings": {
+                        "foreground": "#d2c057",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"keyword.operator.new",
+                    "settings": {
+                        "foreground": "#9a7fd5",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"storage.modifier",
+                    "settings": {
+                        "foreground": "#9a7adf",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"support.class",
+                    "settings": {
+                        "foreground": "#dbdbdb",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"variable.parameter",
+                    "settings": {
+                        "foreground": "#5daed5",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"keyword.other.using",
+                    "settings": {
+                        "foreground": "#c97ec2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope":"storage.type.new",
+                    "settings": {
+                        "foreground": "#d55dad",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"support.class",
+                    "settings": {
+                        "foreground": "#37daa4",
+                        "fontStyle": ""
+                    }       
+                },
+                {
+                    "scope":"variable.other.readwrite.alias.js",
+                    "settings": {
+                        "foreground": "#37daa4",
+                        "fontStyle": ""
+                    }       
+                }
+            ]
+        }
+    },
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#0000",
+        "[Default Dark+]": {
+            "editor.background": "#242424"
+        }
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+}
