@@ -1,0 +1,6 @@
+[push]
+	default = simple
+	followTags = true
+[user]
+	email = idiogo.diniz@gmail.com
+	name = José Diniz
